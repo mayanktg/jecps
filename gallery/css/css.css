@@ -1,0 +1,115 @@
+/*::::::: PIROBOX V.1.0. :::::::::*/
+
+
+html, body {  
+	margin: 0;
+	padding: 0; 
+}
+
+
+/*::::::::::::REGOLE GENERALI:::::::::::*/
+
+ul,li,dl,dt,dd{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+dt{
+	text-transform:uppercase;
+}
+img{
+	border:none;
+	padding:0;
+	margin:0;
+}
+p{
+	margin:0;
+	padding:0;
+}
+
+a{
+	color:#fff;
+	text-decoration:none;
+	outline:none;
+	background:none;
+	padding:0;
+}
+a:hover{
+	color:#bb0f05;
+	text-decoration:none;
+	outline:none;
+}
+.clear { clear: both; }
+a.AlexaSiteStatsWidget{
+	float:left;
+	padding:10px;
+	background: white;
+	margin:4px 0 0 10px;
+}
+a:hover.AlexaSiteStatsWidget{
+	float:left;
+	padding:10px;
+	background: #333;
+	margin:4px 0 0 10px;
+}
+	color:#fff;
+}
+#bg{
+	position:fixed;
+	height:100%;
+	width:100%;
+	z-index:1;
+}
+
+.demo{
+	float:center;
+	width:100%;
+	margin:150px 0 20px 80px;
+}
+.demo ul{
+	float:center;
+	width:95%;
+	margin:5px 0 0 4px;
+	display:block;
+}
+.demo li{
+	float:left;
+	padding:0;
+	margin:0;
+	color:white;
+
+}
+.demo {
+	float:center;
+	color:white;
+
+}
+.demo a{
+	float:center;
+	margin:10px 39px 0 0;
+	padding:0;
+	background: url(bg_thumbs.png);
+	width:118px;
+	height:118px;
+}
+.demo  a:hover{
+	float:center;
+	background: url(bg_thumbs_h.png);
+	padding:0;
+}
+.demo p{
+	float:center;
+	padding:5px;
+}
+
+.demo  a img{
+	float:center;
+	margin:9px 0 0 9px;
+}
+
+ul.spiegazioni{
+	float:center;
+	margin:20px 0 0 10px;
+	font-size:14px;
+}
+
